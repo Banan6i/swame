@@ -1,0 +1,108 @@
+/* Усі теги */
+* {
+    /* Вимикаємо стандартні отступи */
+    margin: 0;
+    padding: 0;
+
+    /* Padding не буде впливати на розміри блока */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4c5660;
+}
+
+/* Вся карточка */
+.card {
+
+    /* Білий фон карточки */
+    background-color: white;
+
+    /* Ширина блоки */
+    width: 350px;
+
+    /* Отступ (щоб не було прижато да країв сторінки) */
+    margin: 100px;
+
+    /* Круглі кути блоку */
+    border-radius: 5%;
+
+    -webkit-box-shadow: 21px 21px 13px -4px rgba(110,110,110,0.94);
+    -moz-box-shadow: 21px 21px 13px -4px rgba(110,110,110,0.94);
+    box-shadow: 21px 21px 13px -4px rgba(110,110,110,0.94);
+
+}
+
+/* Верхня частина карточки */
+.card-top {
+    text-align: center;
+
+}
+
+/* Фото */
+.avatar {
+
+    width: 150px;
+    height: 150px;
+
+    /* Тимчасова рамка фотографії */
+    border: 2px solid rgb(0, 0, 0);
+
+    /* З квадратного контуру робимо круглий */
+    border-radius: 50%;
+}
+
+/* Нижня частина блоку */
+.card-bottom {
+    text-align: center;
+}
+
+/* Ряд з трьох блоків */
+.row {
+    /* Блоки всередині розміщуємо в ряд */
+    display: flex;
+    /* Розтягуємо по ширині ці блоки */
+    justify-content: space-between;
+}
+
+.send {
+    text-align: center;
+    background-color: #5bd1bd;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #46a897;
+}
+
+.tag {
+    font-size: 14px;
+    color:#a1a1a1
+}
+
+.job {
+    font-size: 15px;
+    color:#a1a1a1;
+    margin-bottom: 35px;
+}
+
+.info {
+    width: 80px;
+}
+
+.number {
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.more {
+    color:black;
+}
